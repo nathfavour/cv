@@ -25,11 +25,11 @@ export const RESUME_DATA = {
   location: "Lagos, Nigeria",
   locationLink: "https://www.google.com/maps/place/Lagos",
   about:
-    "Detail-oriented Backend Engineer dedicated to building functional products.",
+    "Backend Engineer | R&D Enthusiast | AI, Cybersecurity, & Blockchain Architect",
   summary:
-    "As a Backend Engineer, I specialize in taking products from concept to launch. I excel in building functional APIs, serverless functions, web workers, . Currently, I work mostly with Django, Nodejs, nestjs and GraphQL. I have been building functional products since 2018 both in-office and working remotely with companies worldwide.",
+    "As a Backend Engineer and R&D Enthusiast, I specialize in building autonomous systems, cryptographic protocols, and private-first ecosystems. I excel in building functional APIs, serverless functions, and agentic software. Currently, I work mostly with Django, Node.js, NestJS, and GraphQL, with a deep interest in AI, Cybersecurity, and Blockchain architecture.",
   avatarUrl: "https://avatars.githubusercontent.com/u/116535483?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://favourryan.netlify.app",
   contact: {
     email: "nathfavour02@gmail.com",
     tel: "+2349019775509",
@@ -82,185 +82,91 @@ export const RESUME_DATA = {
       description:
         "Freelancing on Fiverr, Upwork, Github. Building as many projects as possible with Technologies like Django, Nodejs, Nestjs",
     },
-
-
   ],
   skills: [
     "Python",
     "TypeScript",
-    "API (Application Programming Interface)",
     "Django",
-    "Postman",
     "Node.js",
     "Next.js",
     "GraphQL",
-    "REST",
-    "Relay",
-    "WebRTC",
+    "Rust",
+    "Solana",
+    "Cryptography",
+    "AI Agents",
+    "Zero-Knowledge",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
     "AWS",
-    "Azure",
-    "Github",
-    "Gitlab",
     "git",
   ],
   projects: [
     {
-      title: "Malaika",
-      techStack: [
-        "Backend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "anyisland",
+      techStack: ["Backend", "AI", "Orchestration", "Python"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "AI-powered, OS-agnostic package manager that orchestrates the decentralized distribution and lifecycle of agentic software.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/nathfavour/anyisland",
       },
     },
     {
-      title: "Bionicpython",
-      techStack: [
-        "Backend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "auracrab",
+      techStack: ["AI Agents", "System Engineering", "TypeScript", "Node.js"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Ubiquitous framework for the agentic era, enabling autonomous 'digital butlers' to operate with deep system-level access and reasoning.",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "github.com",
+        href: "https://github.com/nathfavour/auracrab",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
+      title: "Kylrix Vault",
+      techStack: ["Cryptography", "Zero-Knowledge", "Security", "Rust"],
+      description:
+        "A masterpiece of applied mathematics and security engineering, part of the Kylrix suite. Utilizes Zero-Knowledge principles to safeguard sensitive keys.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com",
+        href: "https://github.com/nathfavour/vault",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "shadowprism",
+      techStack: ["Solana", "Blockchain", "Privacy", "Rust"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Polyglot privacy sidecar for Solana that aggregates fragmented privacy protocols into a singular, high-performance agentic interface.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "github.com",
+        href: "https://github.com/nathfavour/shadowprism",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "privibase",
+      techStack: ["Web3", "Backend", "Decentralized", "Node.js"],
       description:
-        "Personal website and blog. Built with Next.js and Notion API",
+        "Self-hostable, Web3-native backend-as-a-service providing a decentralized and private alternative to legacy cloud infrastructures.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/nathfavour/privibase",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "autocommiter",
+      techStack: ["AI", "Tooling", "Developer Experience", "Python"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "AI tool that generates semantic history for commits, acting as a silent architect of the development cycle.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com",
+        href: "https://github.com/nathfavour/autocommiter",
       },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
