@@ -173,20 +173,45 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
-              );
-            })}
+        <Section className="print-force-new-page scroll-mb-16 space-y-6">
+          <div className="space-y-1">
+            <h2 className="text-xl font-bold">Proof of Work</h2>
+            <p className="text-xs text-muted-foreground print:text-[10px]">
+              Curated systems, autonomous agents, and low-level tooling organized across three tiers.
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {RESUME_DATA.projectTiers.map((tier) => (
+              <div key={tier.name} className="space-y-3">
+                <div className="flex items-baseline justify-between border-b pb-1">
+                  <h3 className="text-sm font-semibold tracking-tight text-foreground">
+                    {tier.name}
+                  </h3>
+                  <span className="text-[11px] text-muted-foreground print:text-[9px]">
+                    {tier.description}
+                  </span>
+                </div>
+
+                <div
+                  className={
+                    tier.projects.length === 1
+                      ? "-mx-3 grid grid-cols-1 gap-3"
+                      : "-mx-3 grid grid-cols-1 gap-3 print:grid-cols-2 print:gap-2 md:grid-cols-2"
+                  }
+                >
+                  {tier.projects.map((project) => (
+                    <ProjectCard
+                      key={project.title}
+                      title={project.title}
+                      description={project.description}
+                      tags={project.techStack}
+                      link={"link" in project ? project.link.href : undefined}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </Section>
       </section>

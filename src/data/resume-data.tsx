@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Lagos, Nigeria",
   locationLink: "https://www.google.com/maps/place/Lagos",
   about:
-    "Backend Engineer | R&D Enthusiast | AI, Cybersecurity, & Blockchain Architect",
+    "Systems & autonomous agents engineer building local-first platforms, cryptographic rails, and low-level tooling.",
   summary:
-    "As a Backend Engineer and R&D Enthusiast, I specialize in building autonomous systems, cryptographic protocols, and private-first ecosystems. I excel in building functional APIs, serverless functions, and agentic software. Currently, I work mostly with Django, Node.js, NestJS, and GraphQL, with a deep interest in AI, Cybersecurity, and Blockchain architecture.",
+    "Systems & autonomous agents engineer building local-first platforms, cryptographic rails, and low-level tooling. Focus on high-throughput cryptographic engines, freestanding post-quantum cryptography, agentic runtime environments, and low-level OS/security architectures.",
   avatarUrl: "https://avatars.githubusercontent.com/u/116535483?v=4",
   personalWebsiteUrl: "https://favourryan.netlify.app",
   contact: {
@@ -69,44 +69,217 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description:
-        "Leading the development of vexeroo, an Ecommerce app. Technologies: Python, Django, REST API",
+        "Engineered e-commerce backend services, RESTful APIs, and system workflows using Python and Django.",
     },
     {
-      company: "Freelancer",
+      company: "Freelance / Independent R&D",
       link: "https://github.com/nathfavour",
       badges: ["Remote"],
-      title: "Full Stack Developer",
+      title: "Systems & Full Stack Engineer",
       logo: ParabolLogo,
       start: "2023",
       end: "present",
       description:
-        "Freelancing on Fiverr, Upwork, Github. Building as many projects as possible with Technologies like Django, Nodejs, Nestjs",
+        "Architecting autonomous agent protocols, cryptographic settlement systems, and low-level developer tooling across Zig, Rust, Python, and TypeScript.",
     },
   ],
   skills: [
+    "Zig",
+    "Rust",
     "Python",
     "TypeScript",
+    "WebAssembly",
+    "RISC-V",
+    "Cryptography (PQC)",
+    "Autonomous Agents",
+    "Solana",
+    "Distributed Systems",
+    "Linux / OS Internals",
     "Django",
     "Node.js",
-    "Next.js",
-    "GraphQL",
-    "Rust",
-    "Solana",
-    "Cryptography",
-    "AI Agents",
-    "Zero-Knowledge",
     "PostgreSQL",
-    "Redis",
     "Docker",
-    "AWS",
-    "git",
+    "Git",
+  ],
+  projectTiers: [
+    {
+      name: "Flagship",
+      description: "Primary unified product platform",
+      projects: [
+        {
+          title: "Kylrix",
+          techStack: ["Local-First", "AI Agents", "Passkeys", "Crypto Checkout"],
+          description:
+            "Unified, local-first workspace combining private notes, vaults, and autonomous AI agents with passkey authentication and non-custodial crypto checkout.",
+          logo: ConsultlyLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/kylrix",
+          },
+        },
+      ],
+    },
+    {
+      name: "Core Systems",
+      description: "Low-level kernels, cryptographic primitives, and execution engines",
+      projects: [
+        {
+          title: "keystone-zig",
+          techStack: ["Zig", "RISC-V", "TEE", "Enclave Security"],
+          description:
+            "RISC-V enclave security framework in Zig for isolated agent execution.",
+          logo: EvercastLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/keystone-zig",
+          },
+        },
+        {
+          title: "poly16duo",
+          techStack: ["Zig", "WebAssembly", "Post-Quantum", "SIMD"],
+          description:
+            "Post-quantum cryptographic primitives in Zig compiled to freestanding WebAssembly.",
+          logo: BarepapersLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/poly16duo",
+          },
+        },
+        {
+          title: "settlerengine",
+          techStack: ["Crypto Rails", "Settlement Engine", "Agents", "Payments"],
+          description:
+            "High-throughput payment engine enabling direct crypto transactions between autonomous software agents.",
+          logo: ParabolLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/settlerengine",
+          },
+        },
+        {
+          title: "clarigggzOS",
+          techStack: ["Kernel", "RISC-V", "Smart Glasses", "OS Architecture"],
+          description:
+            "Operating system kernel targeting RISC-V architectures for smart glasses.",
+          logo: BimLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/clarigggzOS",
+          },
+        },
+      ],
+    },
+    {
+      name: "Protocols & Tools",
+      description: "Decentralized protocols, agent compilers, and privacy rails",
+      projects: [
+        {
+          title: "anyisland",
+          techStack: ["Package Manager", "Autonomous Agents", "Distribution"],
+          description:
+            "Decentralized package manager for distributing agentic software.",
+          logo: ParabolLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/anyisland",
+          },
+        },
+        {
+          title: "ship",
+          techStack: ["Programming Language", "Compiler", "Code Generation"],
+          description:
+            "Programming language built specifically for agent-driven code generation.",
+          logo: Minimal,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/ship",
+          },
+        },
+        {
+          title: "TMP",
+          techStack: ["Messaging Protocol", "Web3", "In-App Inboxes"],
+          description:
+            "Decentralized messaging protocol replacing SMTP for Web3 and in-app inboxes.",
+          logo: JarockiMeLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/TMP",
+          },
+        },
+        {
+          title: "shadowprism",
+          techStack: ["Solana", "Privacy Protocol", "Aggregator"],
+          description: "Privacy protocol aggregator for Solana.",
+          logo: MonitoLogo,
+          link: {
+            label: "github.com",
+            href: "https://github.com/nathfavour/shadowprism",
+          },
+        },
+      ],
+    },
   ],
   projects: [
     {
-      title: "anyisland",
-      techStack: ["Backend", "AI", "Orchestration", "Python"],
+      title: "Kylrix",
+      techStack: ["Local-First", "AI Agents", "Passkeys", "Crypto Checkout"],
       description:
-        "AI-powered, OS-agnostic package manager that orchestrates the decentralized distribution and lifecycle of agentic software.",
+        "Unified, local-first workspace combining private notes, vaults, and autonomous AI agents with passkey authentication and non-custodial crypto checkout.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/nathfavour/kylrix",
+      },
+    },
+    {
+      title: "keystone-zig",
+      techStack: ["Zig", "RISC-V", "TEE", "Enclave Security"],
+      description:
+        "RISC-V enclave security framework in Zig for isolated agent execution.",
+      logo: EvercastLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/nathfavour/keystone-zig",
+      },
+    },
+    {
+      title: "poly16duo",
+      techStack: ["Zig", "WebAssembly", "Post-Quantum", "SIMD"],
+      description:
+        "Post-quantum cryptographic primitives in Zig compiled to freestanding WebAssembly.",
+      logo: BarepapersLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/nathfavour/poly16duo",
+      },
+    },
+    {
+      title: "settlerengine",
+      techStack: ["Crypto Rails", "Settlement Engine", "Agents", "Payments"],
+      description:
+        "High-throughput payment engine enabling direct crypto transactions between autonomous software agents.",
+      logo: ParabolLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/nathfavour/settlerengine",
+      },
+    },
+    {
+      title: "clarigggzOS",
+      techStack: ["Kernel", "RISC-V", "Smart Glasses", "OS Architecture"],
+      description:
+        "Operating system kernel targeting RISC-V architectures for smart glasses.",
+      logo: BimLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/nathfavour/clarigggzOS",
+      },
+    },
+    {
+      title: "anyisland",
+      techStack: ["Package Manager", "Autonomous Agents", "Distribution"],
+      description:
+        "Decentralized package manager for distributing agentic software.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
@@ -114,58 +287,35 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "auracrab",
-      techStack: ["AI Agents", "System Engineering", "TypeScript", "Node.js"],
+      title: "ship",
+      techStack: ["Programming Language", "Compiler", "Code Generation"],
       description:
-        "Ubiquitous framework for the agentic era, enabling autonomous 'digital butlers' to operate with deep system-level access and reasoning.",
-      logo: EvercastLogo,
+        "Programming language built specifically for agent-driven code generation.",
+      logo: Minimal,
       link: {
         label: "github.com",
-        href: "https://github.com/nathfavour/auracrab",
+        href: "https://github.com/nathfavour/ship",
       },
     },
     {
-      title: "Kylrix Vault",
-      techStack: ["Cryptography", "Zero-Knowledge", "Security", "Rust"],
+      title: "TMP",
+      techStack: ["Messaging Protocol", "Web3", "In-App Inboxes"],
       description:
-        "A masterpiece of applied mathematics and security engineering, part of the Kylrix suite. Utilizes Zero-Knowledge principles to safeguard sensitive keys.",
-      logo: ConsultlyLogo,
+        "Decentralized messaging protocol replacing SMTP for Web3 and in-app inboxes.",
+      logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/nathfavour/vault",
+        href: "https://github.com/nathfavour/TMP",
       },
     },
     {
       title: "shadowprism",
-      techStack: ["Solana", "Blockchain", "Privacy", "Rust"],
-      description:
-        "Polyglot privacy sidecar for Solana that aggregates fragmented privacy protocols into a singular, high-performance agentic interface.",
+      techStack: ["Solana", "Privacy Protocol", "Aggregator"],
+      description: "Privacy protocol aggregator for Solana.",
       logo: MonitoLogo,
       link: {
         label: "github.com",
         href: "https://github.com/nathfavour/shadowprism",
-      },
-    },
-    {
-      title: "privibase",
-      techStack: ["Web3", "Backend", "Decentralized", "Node.js"],
-      description:
-        "Self-hostable, Web3-native backend-as-a-service providing a decentralized and private alternative to legacy cloud infrastructures.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://github.com/nathfavour/privibase",
-      },
-    },
-    {
-      title: "autocommiter",
-      techStack: ["AI", "Tooling", "Developer Experience", "Python"],
-      description:
-        "AI tool that generates semantic history for commits, acting as a silent architect of the development cycle.",
-      logo: Minimal,
-      link: {
-        label: "github.com",
-        href: "https://github.com/nathfavour/autocommiter",
       },
     },
   ],

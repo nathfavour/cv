@@ -85,6 +85,18 @@ export class Project {
 }
 
 @ObjectType()
+export class ProjectTier {
+  @Field(() => String)
+  name: string;
+
+  @Field(() => String, { nullable: true })
+  description?: string;
+
+  @Field(() => [Project])
+  projects: Project[];
+}
+
+@ObjectType()
 export class Me {
   @Field(() => String)
   name: string;
@@ -121,6 +133,9 @@ export class Me {
 
   @Field(() => [String])
   skills: string[];
+
+  @Field(() => [ProjectTier])
+  projectTiers: ProjectTier[];
 
   @Field(() => [Project])
   projects: Project[];
